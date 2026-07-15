@@ -4,6 +4,13 @@ Practical examples for building real product workflows with OriginStartAI.
 
 This cookbook focuses on copyable AI API recipes: summarization, support replies, structured JSON, SEO writing, and lightweight product automation.
 
+## Why This Repo
+
+- AI API cookbook recipes for real product workflows.
+- Prompt patterns for summarization, support, SEO, and structured output.
+- Copyable Python recipes that can be adapted into production code.
+- A practical path from first call to recharge and production usage.
+
 ## Start Here
 
 1. Create an account at https://originstartai.com?utm_source=github&utm_medium=repo&utm_campaign=originstartai_cookbook
@@ -47,6 +54,15 @@ Each recipe should include:
 - Output expectation
 - Approximate cost notes
 - Next step for production use
+
+## Search Topics
+
+- AI API cookbook.
+- LLM recipes.
+- Customer support AI reply.
+- Long text summarization API.
+- SEO outline generator.
+- JSON structured output recipe.
 
 ## Links
 
