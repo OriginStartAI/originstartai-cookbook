@@ -5,8 +5,8 @@ import urllib.request
 
 def chat(messages, temperature=0.3):
     api_key = os.environ["ORIGINSTARTAI_API_KEY"]
-    base_url = os.environ.get("ORIGINSTARTAI_BASE_URL", "https://YOUR_7016_API_BASE_URL/v1")
-    model = os.environ.get("ORIGINSTARTAI_MODEL", "YOUR_DEFAULT_MODEL")
+    base_url = os.environ.get("ORIGINSTARTAI_BASE_URL", "https://YOUR_PUBLIC_API_BASE_URL/v1")
+    model = os.environ.get("ORIGINSTARTAI_MODEL", "YOUR_ENABLED_MODEL")
 
     payload = {
         "model": model,
@@ -26,4 +26,3 @@ def chat(messages, temperature=0.3):
 
     with urllib.request.urlopen(request, timeout=60) as response:
         return response.read().decode("utf-8")
-
